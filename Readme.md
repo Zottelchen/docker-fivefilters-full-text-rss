@@ -4,9 +4,11 @@
 ![Number of Image Pulls](https://img.shields.io/docker/pulls/...)
 ![Image size](https://img.shields.io/docker/image-size/...) --->
 
-A Dockerfile for the open (older) version of the [Full-Text RSS made by FiveFilters.org](https://www.fivefilters.org/full-text-rss/).
+A Dockerfile for the open (older) version of the [Full-Text RSS made by FiveFilters.org](https://www.fivefilters.org/full-text-rss/). This version is a fork of mine, which fixed the site config updates.
 
-<!--- Since this old version is running on PHP 7.3 (where the security support is running out on 6 Dec 2021) additional protection measures are recommended! -->
+A volume mounting `/var/www/html/site_config/` is recommended, especially when using custom site configs.
+
+Since this old version is running on PHP 7.3 (where the security support is running out on 6 Dec 2021) additional protection measures are recommended!
 
 Not affiliated with [fivefilters.org](http://fivefilters.org/). The Dockerfile is licensed under [Unlicense](LICENSE).
 
