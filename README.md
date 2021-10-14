@@ -1,8 +1,8 @@
 # Docker Image for fivefilters Full-Text RSS service
 
-<!---![Docker build and push](https://github.com/.../workflows/.../badge.svg)
-![Number of Image Pulls](https://img.shields.io/docker/pulls/...)
-![Image size](https://img.shields.io/docker/image-size/...) --->
+
+![Docker Pulls](https://img.shields.io/docker/pulls/zottelchen/docker-fivefilters-full-text-rss?style=for-the-badge)
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/zottelchen/docker-fivefilters-full-text-rss?style=for-the-badge)
 
 A Dockerfile for the open (older) version of the [Full-Text RSS made by FiveFilters.org](https://www.fivefilters.org/full-text-rss/). This version is a fork of mine, which fixed the site config updates.
 
