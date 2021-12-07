@@ -1,6 +1,6 @@
 name: 🐳Build🐋
 
-true: 
+on: 
   push: 
     tags: 
       - "**"
