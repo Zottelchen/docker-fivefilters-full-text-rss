@@ -17,4 +17,4 @@ RUN     chmod +x /usr/local/bin/install-php-extensions && \
 
 WORKDIR /var/www/html
 EXPOSE  8080
-CMD     php -S 0.0.0.0:8080
+CMD     php -q -S 0.0.0.0:8080
